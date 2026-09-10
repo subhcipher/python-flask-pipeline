@@ -2,7 +2,7 @@ pipeline {
 agent any
 
 environment {
-    IMAGE_NAME = "pandu867/bubu-flaskapp"
+    IMAGE_NAME = "subhcipher/bubu-flask"
     IMAGE_TAG = "${BUILD_NUMBER}"
 }
 
